@@ -1,0 +1,30 @@
+.header {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9em;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.nav {
+  margin-right: 10px;
+}
+
+.link {
+  background-color: yellow;
+  color: rgb(33, 27, 27);
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
