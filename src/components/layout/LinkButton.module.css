@@ -1,0 +1,15 @@
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgba(20, 13, 13, 0.496);
+  margin-top: 5px;
+  color: rgb(33, 27, 27);
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  background-color: #ffbb33;
+}

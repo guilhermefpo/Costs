@@ -1,0 +1,36 @@
+.section {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section {
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.area_texto {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.area_texto h1 {
+  color: rgba(255, 255, 5, 0.707);
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(20, 13, 13, 0.496);
+}
+
+.area_texto span {
+  color: #ffbb33;
+}
+
+.area_img {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
