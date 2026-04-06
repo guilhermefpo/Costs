@@ -11,7 +11,7 @@ function Home() {
           Bem-Vindo ao <span>Costs</span>
         </h1>
         <p>Comece a gerenciar os seus projetos agora mesmo!</p>
-        <LinkButton to="/projects" text="Criar Projeto" />
+        <LinkButton to="/newproject" text="Criar Projeto" />
       </div>
       <div className={styles.area_img}>
         <img src={savings} alt="Costs" />
