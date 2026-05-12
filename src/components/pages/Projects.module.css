@@ -1,0 +1,28 @@
+.div {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top h1 {
+  margin: 0;
+}
+
+.projetos {
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
