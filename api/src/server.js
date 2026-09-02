@@ -1,7 +1,6 @@
-const express = require("express");
+import { app } from "./app.js";
 
-const app = express();
-
-app.listen(3333, () => {
-  console.log(`Servidor rodando na porta http://localhost:3333`);
+app.listen({ port: 3000, host: "0.0.0.0" }).then(() => {
+  console.log("HTTP server running on http://localhost:3000");
+  console.log("Docs available at http://localhost:3000/docs");
 });
