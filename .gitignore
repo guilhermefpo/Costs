@@ -10,7 +10,7 @@ api/node_modules
 dist
 dist-ssr
 *.local
-api/src/generated/prisma
+api/generated/prisma
 
 # Logs
 logs
